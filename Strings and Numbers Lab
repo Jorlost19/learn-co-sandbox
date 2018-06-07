@@ -1,0 +1,9 @@
+//Friends Section!
+
+let friendsNumber = document.querySelector('#friends');
+friendsNumber.innerHTML=parseInt( friendsNumber.innerHTML) +1;
+
+//Employer Section!
+document.querySelector('#employer').innerHTML = 'The Driskill Hotel'
+let employer=document.querySelector('#employer');
+employer.innerHTML= employer.innerHTML + '<br> Flatiron School';
